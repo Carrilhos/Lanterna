@@ -68,7 +68,8 @@ export default function negocio({ navigation: { goBack } }){
                     <Text style={styles.endereço}>
                         {endereço}
                     </Text>
- 
+  
+  
                     <View style={styles.ultimo}>
                        
                     </View>

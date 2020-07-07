@@ -1,7 +1,9 @@
-import React from 'react'
-import { View, Text, ImageBackground, Image, TouchableOpacity } from 'react-native'
+import React,  { useState} from 'react'
+import { View, Text, ImageBackground, Image, TouchableOpacity, Button } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto'
+
+import Modal, { SlideAnimation, ModalContent } from 'react-native-modals';
 
 import image from '../../img/bg2.jpg'
 
@@ -29,12 +31,11 @@ export default function Home(){
     }
 
 
+
     return(
         <View style={styles.container}>
             <ImageBackground source={image} style={styles.image}>
-                <Text style={styles.BemVindo}>
-                    
-                </Text>
+
 
                 <View style={styles.buttonbox}> 
 
@@ -54,7 +55,9 @@ export default function Home(){
                             Empresa
                         </Text>
                     </TouchableOpacity>
-
+                    <Text style={styles.letrasMiudas}>
+                        O lanterna não possui nenhum vinculo com o Whatsapp
+                    </Text>
                 </View>
 
             </ImageBackground>

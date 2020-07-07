@@ -65,7 +65,7 @@ export default StyleSheet.create({
         backgroundColor: '#ddffef',
         marginBottom: 20,
         borderRadius: 20,
-        
+        textAlign: "center"        
         
       },
 
@@ -74,6 +74,7 @@ export default StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         paddingTop: 300
+        
     },
 
     cadastrese:{
@@ -84,8 +85,8 @@ export default StyleSheet.create({
     },
     formcadastro:{
         alignItems: 'center',
-        marginTop: '15%'
-
+        marginTop: '15%',
+        marginHorizontal: 50
     },
 
 

@@ -73,6 +73,7 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        paddingTop: 300
+        paddingTop: 300,
+        marginHorizontal: 50
     }
-})
+})  

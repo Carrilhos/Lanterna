@@ -28,6 +28,7 @@ export default StyleSheet.create({
         alignItems: 'center' ,
         justifyContent: 'space-between',
         backgroundColor: '#4bff64',
+        height: 85
         
  
 
@@ -114,6 +115,8 @@ export default StyleSheet.create({
     imgEmpresa:{
         width: 400,
         height: 250,
+        marginVertical: 15,
+       
     },
 
     description:{
@@ -163,7 +166,7 @@ export default StyleSheet.create({
     redessociais1:{
         marginBottom: 150,
         marginTop: '5%',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         flexDirection: 'row',
         marginHorizontal: '30%',
        
@@ -188,7 +191,31 @@ export default StyleSheet.create({
         textAlign: "center",
         fontSize: 20,
         marginBottom: '5%'
+    },
+
+    selectImg:{
+        textAlign: "center",
+        backgroundColor: "#8AFF9A",
+        fontSize: 20,
+        marginVertical: 15,
+        paddingVertical: 20,
+        borderRadius: 50,
+        marginBottom: 50
+       
+
+    },
+
+    editText:{
+        textAlign: 'center',
+        fontSize: 20,
+        marginTop: 10,
+        marginBottom: 20
+    },
+    
+    next:{
+        paddingVertical: 20
     }
+
 
    
     

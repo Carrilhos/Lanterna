@@ -27,6 +27,7 @@ export default StyleSheet.create({
         marginTop: 150,
         fontFamily: 'Roboto_700Bold',
         
+        
     },
 
     button1:{
@@ -35,7 +36,7 @@ export default StyleSheet.create({
         marginHorizontal: 70,
         marginBottom: 20,
         padding: 20,
-        marginTop: 150
+        marginTop: 350
 
 
     },
@@ -54,5 +55,12 @@ export default StyleSheet.create({
     textbutton:{
         textAlign: 'center',
         fontSize: 15
+    },
+
+    letrasMiudas:{
+        marginTop: 20,
+        textAlign: 'center',
+        fontSize: 11
     }
+
 })
